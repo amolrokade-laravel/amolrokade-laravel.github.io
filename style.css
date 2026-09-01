@@ -68,18 +68,22 @@ a:hover {
 }
 
 .avatar {
-  width: 88px;
-  height: 88px;
+  width: 140px;
+  height: 140px;
   margin: 0 auto 1rem;
   border-radius: 24px;
-  display: grid;
-  place-items: center;
-  font-size: 1.6rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background: linear-gradient(135deg, var(--accent), #fb923c);
+  display: block;
+  object-fit: cover;
+  object-position: center top;
+  border: 3px solid rgba(249, 115, 22, 0.35);
   box-shadow: 0 16px 40px rgba(249, 115, 22, 0.25);
+}
+
+.mobile-header .avatar {
+  width: 72px;
+  height: 72px;
+  margin: 0;
+  border-radius: 18px;
 }
 
 .profile h1,
