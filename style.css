@@ -243,6 +243,38 @@ a:hover {
   color: var(--accent-2);
 }
 
+.section-intro {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+  font-style: italic;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.about-item {
+  background: rgba(28, 37, 51, 0.75);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.15rem;
+}
+
+.about-item h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.65rem;
+}
+
+.about-item p {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .card > p,
 .job p {
   color: var(--muted);
