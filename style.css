@@ -230,6 +230,7 @@ a:hover {
 }
 
 .print-btn {
+  display: block;
   width: 100%;
   margin-top: 0.5rem;
   padding: 0.85rem 1rem;
@@ -240,6 +241,8 @@ a:hover {
   font-family: inherit;
   font-size: 0.9rem;
   font-weight: 600;
+  text-align: center;
+  text-decoration: none;
   cursor: pointer;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
@@ -247,6 +250,7 @@ a:hover {
 .print-btn:hover {
   transform: translateY(-1px);
   border-color: var(--accent);
+  color: #fdba74;
 }
 
 .content {
